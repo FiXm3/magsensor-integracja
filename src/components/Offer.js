@@ -7,7 +7,7 @@ import { useLocation } from '@reach/router'
 import { getImage, GatsbyImage } from 'gatsby-plugin-image'
 import { GatsbyContext } from '../context/context'
 
-// GraphQL Query inside Context file
+// GraphQL Query inside Context files
 
 const Offer = () => {
   const { offerInfo } = useContext(GatsbyContext)
