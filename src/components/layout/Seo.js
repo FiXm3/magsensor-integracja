@@ -74,11 +74,11 @@ const SEO = ({ title, description, content }) => {
         },
         {
           name: `msapplication-TileColor`,
-          content: `#da532c`,
+          content: `#f8f4f4`,
         },
         {
           name: `theme-color`,
-          content: `#5f3797`,
+          content: `#f8f4f4`,
         },
         {
           property: `type`,
