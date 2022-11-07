@@ -96,6 +96,7 @@ const Wrapper = styled.div`
 
   .cert-wrapper {
     display: grid;
+    place-items: center;
     gap: 2rem;
   }
 
@@ -163,6 +164,7 @@ const Wrapper = styled.div`
 
     .cert-wrapper {
       grid-template-columns: repeat(2, 1fr);
+      place-items: unset;
     }
 
     .cert-image-wrapper {
