@@ -42,7 +42,7 @@ const Image = ({ props, imageClass }) => {
                 alignItems: 'center',
               }}
               image={getImage(props[index])}
-              alt='image'
+              alt={props[0].title}
               className={`${imageClass}`}
             />
           </article>

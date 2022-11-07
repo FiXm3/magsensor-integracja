@@ -68,7 +68,7 @@ const NewsFeed = ({ posts, loading }) => {
                           lineWidth='4rem'
                         />
                       </div>
-                      <p className='desc'>{description.slice(0, 150)}...</p>
+                      <p className='desc'>{description.slice(0, 120)}...</p>
                       <Link to={`/aktualnosci/${slug}`} className='next-button'>
                         CZYTAJ DALEJ <AiOutlineArrowRight />{' '}
                       </Link>
@@ -183,7 +183,7 @@ const Wrapper = styled.div`
 
   @media ${device.laptop} {
     .post {
-      grid-template-columns: 20rem 1fr;
+      grid-template-columns: 25rem 1fr;
       column-gap: 2rem;
       text-align: left;
       margin-bottom: 4rem;
@@ -214,7 +214,7 @@ const Wrapper = styled.div`
     }
 
     .image {
-      height: 22rem;
+      height: 18rem;
     }
 
     .text {

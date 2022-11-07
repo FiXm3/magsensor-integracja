@@ -96,7 +96,6 @@ const Wrapper = styled.div`
 
   .cert-wrapper {
     display: grid;
-    place-items: center;
     gap: 2rem;
   }
 
@@ -137,6 +136,14 @@ const Wrapper = styled.div`
     width: 60%;
   }
 
+  .gallery-image-wrapper {
+    border-radius: var(--radius);
+    -webkit-border-radius: var(--radius);
+    -moz-border-radius: var(--radius);
+    -ms-border-radius: var(--radius);
+    -o-border-radius: var(--radius);
+  }
+
   .gallery-image {
     border-radius: var(--radius);
     -webkit-border-radius: var(--radius);
@@ -145,6 +152,8 @@ const Wrapper = styled.div`
     -o-border-radius: var(--radius);
     width: 100%;
     height: 100%;
+    position: relative;
+    z-index: 0;
   }
 
   @media ${device.tablet} {

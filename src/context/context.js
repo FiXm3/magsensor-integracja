@@ -307,7 +307,7 @@ const GatsbyProvider = ({ children }) => {
         newsInfo,
         newsLength,
         setNewsLength,
-        // Paginate
+        // Paginate & posts
         currentPosts,
         currentPage,
         setCurrentPage,
