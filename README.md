@@ -18,5 +18,5 @@ A project created for sensory integration business.
 - Contentful
 
 ## Live site:
-[(https://magsensor.pl)]
+https://magsensor.pl
  
